@@ -26,7 +26,7 @@ int getLdrValue(int pin) {
 
 int ldrControlReadLux(int pin) {
   int val = 0;
-  val = map(getLdrValue(pin), 480, 200, 400, 0);
+  val = map(getLdrValue(pin), 1023, 0, 255, 0);
   return val;
 }
 

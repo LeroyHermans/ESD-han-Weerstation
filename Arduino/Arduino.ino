@@ -30,5 +30,5 @@ void loop() {
   }
   Serial.println("");
   //  setLedThermo(ptcControlReadTemp(0));
-  delay(1000);
+  delay(100);
 }
